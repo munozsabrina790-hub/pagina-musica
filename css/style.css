@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a9c7e8;
+    color: #1b2a41;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    
+}
+
+
+h1 {
+    margin-bottom: 30px;
+    color: #0d3b66;
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.img-artista {
+    width: 320px;
+}
+
+
+.canciones {
+    text-align: left;
+    font-size: 18px;
+}
+
+.canciones p {
+    margin: 6px 0;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+p:hover {
+    background-color: #d6e4f5;
+    color: #0d3b66;
+    
+}
+
+
+.letra {
+    margin-top: 40px;
+}
+
+#texto {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+   
+}
